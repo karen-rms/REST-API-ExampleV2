@@ -1,6 +1,6 @@
 const { Sequelize } = require("sequelize"); //Importamos sequelize
 
-const sequelize = new Sequelize("restAPIdb", "alma", "reboot", {
+const sequelize = new Sequelize("DB_Lab", "reboot", "reboot", {
   host: "localhost", //Host donde se conexta la base de datos
   dialect: "mysql", //Lenguaje que usa nuestra base de datos
   port: 3306, // El puerto de la base de datos
