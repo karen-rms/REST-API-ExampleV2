@@ -13,16 +13,16 @@ const Movie = sequelize.define(
       type: DataTypes.INTEGER, //Le definimos el tipo de dato que aceptará la columna, en este caso STRING
     },
     director: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
     duration: {
-        type: DataTypes.STRING
+      type: DataTypes.STRING,
     },
-    genre:{
-        type: DataTypes.STRING
+    genre: {
+      type: DataTypes.STRING,
     },
     rate: {
-        type: DataTypes.DECIMAL
+      type: DataTypes.DECIMAL,
     },
     createdAt: {
       type: DataTypes.DATE,
